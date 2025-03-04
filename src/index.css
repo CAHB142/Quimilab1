@@ -1,0 +1,125 @@
+
+html{
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 40px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+footer {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0; 
+}
+
+.container--body{
+  font-family: sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: auto;
+  padding: 20px;
+  margin: auto;
+  color:white;
+  background-color: #FF0000;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.cajaInicio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border:3px solid white;
+   border-radius:22px;
+}
+
+
+.colum1 {
+  display: flex;
+  max-width: 650px;
+}
+
+.imgLogoUnivalle {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px; 
+  width: 100%;
+
+}
+
+.colum2{
+  max-width: 650px;
+}
+.colum2 h1{
+  font-size: 25px; 
+}
+.colum2 h2{
+  font-size: 15px;
+  margin-top: 20px; 
+}
+.colum3{
+  max-width: 650px;
+}
+
+.colum3 h1{
+  font-size: 25px; 
+}
+
+.colum3 h2{
+  font-size: 25px; 
+}
+
+.colum3 .row{
+  margin-top: 20px;
+  display: flex;
+}
+
+
+.row img{
+  width: 30px;
+  height: 30px;
+}
+.row label{
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1100px){
+  .container--body{
+    flex-wrap: wrap;
+    
+  }
+  .colum2,
+  .colum3{
+    margin-top: 40px;
+  }
+}
+
+.imagenesCar{
+  width:100%;
+  height:45vh;
+  display: flex;
+  justify-content: center;   
+}
+
+.titleCar{
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
