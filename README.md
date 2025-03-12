@@ -18,7 +18,7 @@ This project was developed by:
 
 ## Technologies Used
 
--Frontend: HTML, CSS, JavaScript
+-Frontend: React.js
 
 -Backend: Firebase (Authentication, Firestore, Storage)
 
